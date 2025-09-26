@@ -4,6 +4,8 @@ A modern e-commerce checkout system built with microservices architecture, featu
 
 ## 🏗️ Architecture Overview
 
+https://github.com/ozavcodez/E-commerce-checkout-system-backend/blob/main/architecture-diagram.png
+
 ### Microservices Architecture Diagram
 
 
