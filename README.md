@@ -17,7 +17,7 @@ https://github.com/ozavcodez/E-commerce-checkout-system-backend/blob/main/archit
 - **In Progress**: Authentication service (basic implementation included)
 - **Future**: Other microservices (Product, Order, Payment, etc.)
 
-## How to run the project
+## How to run the Backend
 
 ### Prerequisites
 
@@ -191,3 +191,23 @@ https://github.com/ozavcodez/E-commerce-checkout-system-backend/blob/main/archit
    ```bash
    curl http://localhost:3001/api/cart/get-cart/USER_ID
    ```
+
+## How to run the frontend
+
+### 1. Clone the Repo
+
+ clone https://github.com/ozavcodez/E-commerce-checkout-system-frontend.git
+
+2. Install Dependencies
+npm install
+
+3. Configure Environment Variables
+
+Create a .env file at the root of the project:
+
+VITE_APP_CHECKOUT_BASE_URL=http://localhost:3001/api
+
+4. Run the App
+npm run dev
+
+Then visit: http://localhost:5173
